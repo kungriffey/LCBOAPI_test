@@ -14,6 +14,8 @@
 		2A6D91161B24F3E700C25E1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6D91151B24F3E700C25E1C /* Images.xcassets */; };
 		2A6D91191B24F3E700C25E1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A6D91171B24F3E700C25E1C /* LaunchScreen.xib */; };
 		2A6D91251B24F3E700C25E1C /* LCBOAPI_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D91241B24F3E700C25E1C /* LCBOAPI_1Tests.m */; };
+		2A6D91311B24F82C00C25E1C /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D91301B24F82C00C25E1C /* Product.m */; };
+		2A6D91351B24F84400C25E1C /* ProductDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6D91341B24F84400C25E1C /* ProductDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2A6D911E1B24F3E700C25E1C /* LCBOAPI_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCBOAPI_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6D91231B24F3E700C25E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A6D91241B24F3E700C25E1C /* LCBOAPI_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCBOAPI_1Tests.m; sourceTree = "<group>"; };
+		2A6D912F1B24F82C00C25E1C /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		2A6D91301B24F82C00C25E1C /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		2A6D91331B24F84400C25E1C /* ProductDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDataController.h; sourceTree = "<group>"; };
+		2A6D91341B24F84400C25E1C /* ProductDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,8 @@
 		2A6D90FC1B24F3E700C25E1C = {
 			isa = PBXGroup;
 			children = (
+				2A6D91321B24F83100C25E1C /* Controller */,
+				2A6D912E1B24F7EA00C25E1C /* Model */,
 				2A6D91071B24F3E700C25E1C /* LCBOAPI_1 */,
 				2A6D91211B24F3E700C25E1C /* LCBOAPI_1Tests */,
 				2A6D91061B24F3E700C25E1C /* Products */,
@@ -117,6 +125,24 @@
 				2A6D91231B24F3E700C25E1C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A6D912E1B24F7EA00C25E1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A6D912F1B24F82C00C25E1C /* Product.h */,
+				2A6D91301B24F82C00C25E1C /* Product.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2A6D91321B24F83100C25E1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A6D91331B24F84400C25E1C /* ProductDataController.h */,
+				2A6D91341B24F84400C25E1C /* ProductDataController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6D91111B24F3E700C25E1C /* ViewController.m in Sources */,
+				2A6D91351B24F84400C25E1C /* ProductDataController.m in Sources */,
+				2A6D91311B24F82C00C25E1C /* Product.m in Sources */,
 				2A6D910E1B24F3E700C25E1C /* AppDelegate.m in Sources */,
 				2A6D910B1B24F3E700C25E1C /* main.m in Sources */,
 			);
