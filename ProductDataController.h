@@ -10,7 +10,15 @@
 
 @interface ProductDataController : NSObject
 
+
 + (instancetype)sharedProductManager;
+
+
+//  Get Product Data
+- (void)getProductSuccess:(void (^)(NSArray *))success onFailure:(void (^)(NSError *))failure;
+
+
+
 
 
 @end
